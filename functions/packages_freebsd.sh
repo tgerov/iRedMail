@@ -25,8 +25,8 @@ install_all()
     export OPENLDAP_VER='26'
     export MYSQL_VER='84'
     export PHP_VER='83'
-    export PY3_VER='3.11'
-    export PY_FLAVOR='py311'
+    export PY3_VER='3.12'
+    export PY_FLAVOR='py312'
 
     if [ X"${WEB_SERVER}" == X'NGINX' ]; then
         export IREDMAIL_USE_PHP='YES'
